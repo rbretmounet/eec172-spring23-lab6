@@ -13,7 +13,7 @@ This project demonstrates an online Pong game that allows players to compete aga
 
 ### Gameplay
 
-![Gameplay Flow]()
+![Gameplay Flow](game-flow.drawio.png)
 
 *Figure 2: Gameplay flow*
 
@@ -21,11 +21,11 @@ This project demonstrates an online Pong game that allows players to compete aga
 
 The joystick module has two data pins, SW and VRx. The VRx pin outputs an analog signal ranging from 0-5v, which is converted to digital using the MCP3001 ADC. The joystick's position is then determined based on the converted signal.
 
-![Diagram of 2-byte binary conversion of ADC signal]()
+![Diagram of 2-byte binary conversion of ADC signal]("binary diagram.drawio.png")
 
 *Figure 3: Diagram of 2-byte binary conversion of ADC signal*
 
-![Diagram of Joystick Module Values]()
+![Diagram of Joystick Module Values](https://components101.com/sites/default/files/inline-images/Joystick-Module-Analog-Output.png)
 
 *Figure 4: Diagram of Joystick Module Values [3]*
 
@@ -41,7 +41,7 @@ The NodeJS server running on an AWS EC2 instance manages the game state and pass
 
 *Figure 5: Data flow when P1 syncs positional data to P2*
 
-![Data flow when P1 syncs positional data to P2 that also triggers the server to update game state data & positional data](data_flow_p1_p2_trigger.png)
+![Data flow when P1 syncs positional data to P2 that also triggers the server to update game state data & positional data]()
 
 *Figure 6: Data flow when P1 syncs positional data to P2 that also triggers the server to update game state data & positional data*
 
@@ -53,7 +53,7 @@ The NodeJS server running on an AWS EC2 instance manages the game state and pass
 
 The WebSocket protocol was chosen for its bi-directional communication capabilities and minimal header size. The WebSocket implementation for the CC3200 board supports string and close messages.
 
-![WebSocket 2-byte header format (excluding mask key)]()
+![WebSocket 2-byte header format (excluding mask key)](websocket.drawio.png)
 
 *Figure 8: WebSocket 2-byte header format (excluding mask key)*
 
@@ -77,17 +77,13 @@ A web client was created to connect to the same server, allowing players to comp
 
 Rendering on the OLED is optimized by tracking the position or value of rendered objects and only re-rendering when those values change.
 
-![Optimized paddle rendering by erasing/drawing delta]()
+![Optimized paddle rendering by erasing/drawing delta](paddle-draw.drawio.png)
 
 *Figure 13: Optimized paddle rendering by erasing/drawing delta*
 
 ### Game States
 
 The game progresses through various states, such as countdown, gameplay, and game over.
-
-## Conclusion
-
-This project successfully demonstrates an online Pong game with real-time synchronization between players, providing a smooth and enjoyable gaming experience.
 
 ## References
 
