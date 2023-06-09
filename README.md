@@ -11,7 +11,7 @@ This project demonstrates an online Pong game that allows players to compete aga
 ## Methods
 
 
-*Figure: Overall architecture (node server + CC3200 + web client)*
+*Figure:  Overall architecture (node server + CC3200 + web client)*
 
 ### Gameplay
 
