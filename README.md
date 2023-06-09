@@ -1,5 +1,5 @@
 
-# Final Project Demo: Multiplayer Pong Game
+# Multiplayer Pong Game Demo
 
 ## Introduction
 
