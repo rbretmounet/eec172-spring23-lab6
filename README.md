@@ -6,7 +6,7 @@
 This project demonstrates an online Pong game that allows players to compete against each other using a custom-built joystick controller and a web client. The game is powered by a CC3200 board and facilitated by a NodeJS server running on an AWS EC2 instance.
 
 ## Demo Video
-[![Demo](https://i.ytimg.com/vi/7d6nEgtiEZs/maxresdefault.jpg)](https://youtu.be/7d6nEgtiEZs "Demo")
+
 ![Schematic](EEC-172-Lab-6-Schematic.png)
 ## Methods
 ![Overall Architecture]()
