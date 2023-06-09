@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: Final Project Demo - Online Pong Game
+---
 # Multiplayer Pong Game Demo
 
 ## Introduction
