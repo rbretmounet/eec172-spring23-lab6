@@ -7,6 +7,7 @@ This project demonstrates an online Pong game that allows players to compete aga
 
 ## Demo Video
 [![Demo](https://i.ytimg.com/vi/7d6nEgtiEZs/maxresdefault.jpg)](https://youtu.be/7d6nEgtiEZs "Demo")
+![Schematic](EEC-172-Lab-6-Schematic.png)
 ## Methods
 ![Overall Architecture]()
 
@@ -22,7 +23,7 @@ This project demonstrates an online Pong game that allows players to compete aga
 
 The joystick module has two data pins, SW and VRx. The VRx pin outputs an analog signal ranging from 0-5v, which is converted to digital using the MCP3001 ADC. The joystick's position is then determined based on the converted signal.
 
-![Diagram of 2-byte binary conversion of ADC signal](binary diagram.drawio.png)
+![Diagram of 2-byte binary conversion of ADC signal](binary-diagram.drawio.png)
 
 *Figure 3: Diagram of 2-byte binary conversion of ADC signal*
 
