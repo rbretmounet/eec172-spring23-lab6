@@ -6,10 +6,10 @@
 This project demonstrates an online Pong game that allows players to compete against each other using a custom-built joystick controller and a web client. The game is powered by a CC3200 board and facilitated by a NodeJS server running on an AWS EC2 instance.
 
 ## Demo Video
-
+[![Demo](https://i.ytimg.com/vi/7d6nEgtiEZs/maxresdefault.jpg)](https://youtu.be/7d6nEgtiEZs "Demo")
 ![Schematic](EEC-172-Lab-6-Schematic.png)
 ## Methods
-![Overall Architecture]()
+
 
 *Figure: Overall architecture (node server + CC3200 + web client)*
 
@@ -39,15 +39,14 @@ A 3D model for the joystick module was found and printed using a 3D printer. The
 
 The NodeJS server running on an AWS EC2 instance manages the game state and passes gameplay data between the two players.
 
-![Data flow when P1 syncs positional data to P2]()
 
 *Figure 5: Data flow when P1 syncs positional data to P2*
 
-![Data flow when P1 syncs positional data to P2 that also triggers the server to update game state data & positional data]()
+
 
 *Figure 6: Data flow when P1 syncs positional data to P2 that also triggers the server to update game state data & positional data*
 
-![Data flow when server syncs state & (reset) positional data to P1 & P2]()
+
 
 *Figure 7: Data flow when server syncs state & (reset) positional data to P1 & P2*
 
@@ -67,7 +66,7 @@ Data is synchronized between the boards and the server during key gameplay event
 
 To ensure smooth gameplay, each board assumes the opponent player blocks the ball unless it receives a payload that confirms this or a new round is started. Frame numbers are used to project the provided positional data back into the current frame.
 
-![Ball location synchronization with projection]()
+
 
 *Figure 11: Ball location synchronization with projection*
 
