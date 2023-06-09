@@ -5,10 +5,6 @@
 
 This project demonstrates an online Pong game that allows players to compete against each other using a custom-built joystick controller and a web client. The game is powered by a CC3200 board and facilitated by a NodeJS server running on an AWS EC2 instance.
 
-## Objective
-
-The objective of this project is to create an online Pong game that provides a smooth and enjoyable gaming experience for players, with real-time synchronization of game data between the two players.
-
 ## Methods
 
 ![Overall Architecture]()
