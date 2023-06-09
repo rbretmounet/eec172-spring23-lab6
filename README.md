@@ -1,7 +1,3 @@
----
-layout: default
-title: Final Project Demo - Online Pong Game
----
 
 # Final Project Demo: Online Pong Game
 
